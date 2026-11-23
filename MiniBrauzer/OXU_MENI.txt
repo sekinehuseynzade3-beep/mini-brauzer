@@ -1,0 +1,20 @@
+MiniBrauzer - C# WinForms + WebView2
+
+Tələblər:
+  - Visual Studio 2022 (".NET desktop development" workload)
+  - .NET 8 SDK
+  - Microsoft Edge WebView2 Runtime (Windows 10/11-də adətən artıq var)
+
+İşə salmaq:
+  1. MiniBrauzer.sln faylını Visual Studio ilə açın.
+  2. İnternet olsun (NuGet Microsoft.Web.WebView2 paketini avtomatik yükləyir).
+  3. F5 basın.
+
+İstifadə:
+  - ←  →  ↻  ⌂ : geri, irəli, yenilə, ana səhifə
+  - Ünvan xəttinə sayt yazıb Enter və ya "Get" düyməsi
+    (boşluqlu mətn yazsanız, Google-da axtarılır)
+  - "+" tabı: yeni tab. Tabı bağlamaq: tabın üzərində təkər (orta düymə) ilə klik
+  - "Seçilmişlərə əlavə et": açıq saytı seçilmişlərə əlavə edir (favorites.txt faylında saxlanır)
+  - Seçilmişlər / Tarixçə siyahısında saytın üzərinə iki dəfə klik -> açılır
+  - Seçilmişlərdən silmək: saytı seçib Delete
